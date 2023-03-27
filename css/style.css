@@ -1,0 +1,166 @@
+.main-heading {
+  width: 25%;
+}
+.card {
+  margin: 0 12px 0 0;
+  width: 18rem;
+}
+
+.box-container {
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.box-containers {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.box-container .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  width: fit-content;
+  height: 319px;
+  border: none;
+  margin-top: 0px;
+}
+
+.content {
+  background: linear-gradient(
+    to bottom left,
+    rgba(0, 0, 0, 0.9),
+    rgba(98, 78, 0, 0.8)
+  );
+  /* background: #ccc; */
+  flex: 1 1 40rem;
+  padding: 2rem;
+}
+
+.box2 {
+  background: linear-gradient(
+    to bottom left,
+    rgba(98, 78, 0, 0.8),
+    rgba(186, 23, 23, 0.9)
+  ) !important;
+  /* background: #ccc; */
+  flex: 1 1 40rem;
+  padding: 2rem;
+}
+.content h3 {
+  font-size: 2.4rem;
+  color: white;
+}
+
+.content p {
+  font-size: 20px;
+  color: white;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(5, 194, 68);
+  color: rgb(247, 246, 244);
+  padding: 9px 11px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  box-shadow: none;
+  border-radius: 5px;
+}
+.main_div{
+  padding-top: 9rem;
+}
+.texts {
+  width: 50%;
+  color: #f902d2;
+  font-weight: 600;
+}
+.paragraph-p{
+  width: 50%;
+}
+.footerDiv{
+  width: 100%;
+}
+.pagrp{
+  width: 50%;
+  padding: 0 36px;
+}
+.social-logo{
+  color: white;
+  background-color: rgb(14, 13, 13);
+border-radius: 50%;
+width: 40px;
+height: 40px;
+padding-left: 8px;
+margin-left: 24px;
+font-size: 25px;
+cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  .main-heading {
+    width: 50%;
+  }
+  .pagrp{
+    width: 100%;
+    padding: 0 8px;
+  }
+  .paragraph-p{
+    width: 73%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .texts {
+    width: 75%;
+    padding-left: 12px;
+  }
+  .main_div{
+    padding-top: 3rem;
+  }
+  .paragraph-p{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .card-title {
+    font-size: 12px;
+  }
+  .card-text {
+    font-size: 10px;
+  }
+  .card {
+    margin: 0 5px 0;
+  }
+  .content h3 {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 650;
+  }
+
+  .image img {
+    width: fit-content;
+    height: 300px;
+    border: none;
+    margin-top: 0px;
+  }
+  .content {
+    padding: 2rem 1rem;
+  }
+  .content p {
+    padding: 0.3rem 0;
+    line-height: 1.3;
+  }
+}
